@@ -1,0 +1,116 @@
+[2024-04-24T14:14:55.273Z]
+ Server listening on port 3000
+[2024-04-24T14:14:55.273Z]
+ Socket.IO Connection établie
+[2024-04-24T14:14:55.288Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:14:55.342Z]
+ Création d'un article 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam.","user":"662913df9e8056fa1a92d171","status":"published","_id":"662913df9e8056fa1a92d174"}
+L'article a été créé!
+[2024-04-24T14:14:55.348Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:14:55.356Z]
+ Mise à jour d'un article par un admin 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam.","user":"662913df9e8056fa1a92d171","status":"published","_id":"662913df9e8056fa1a92d176"}
+L'article a été mis à jour !
+[2024-04-24T14:14:55.358Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:14:55.363Z]
+ Suppression d'un article par un admin 
+Response: {}
+L'article a bien été mis à supprimé !
+[2024-04-24T14:14:55.364Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:14:55.369Z]
+ Création d'un article par un membre 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam. Pellentesque habitant morbi tristique senectus et. Eleifend donec pretium vulputate sapien \n    nec sagittis aliquam malesuada bibendum. Ut pharetra sit amet aliquam id. Placerat vestibulum lectus mauris \n    ultrices eros in cursus.","user":"662913df9e8056fa1a92d172","status":"draft","_id":"662913df9e8056fa1a92d179"}
+L'article a été créé !
+[2024-04-24T14:14:55.371Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:14:55.376Z]
+ Tentative de mise à jour d'un article par un membre
+ Attendu: 401, Unauthorized
+Response:{"status":401,"message":"Unauthorized"}
+[2024-04-24T14:14:55.377Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:14:55.381Z]
+ Tentative de suppression d'un article par un membre
+ Attendu: 401, Unauthorized
+Response: {"status":401,"message":"Unauthorized"}
+[2024-04-24T14:14:55.384Z]
+ Doit retourner les articles de l'utilisateur si des articles existent
+Utilisateur ID:662913df9e8056fa1a92d17c
+Resultat : [{"title":"Ceci est un premier titre","content":"Ceci est le contenu de l'article 1","user":"662913df9e8056fa1a92d17c","status":"draft","_id":"662913df9e8056fa1a92d17c"},{"title":"Ceci est un second titre","content":"Ceci est le contenu de l'article 2","user":"662913df9e8056fa1a92d17c","status":"draft","_id":"662913df9e8056fa1a92d17c"}]
+[2024-04-24T14:14:55.386Z]
+ Server closed
+[2024-04-24T14:22:37.307Z]
+ Server listening on port 3000
+[2024-04-24T14:22:37.308Z]
+ Socket.IO Connection établie
+[2024-04-24T14:22:37.335Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:22:37.401Z]
+ Création d'un article 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam.","user":"662915ad4e05c92efc479945","status":"published","_id":"662915ad4e05c92efc479948"}
+L'article a été créé!
+[2024-04-24T14:22:37.408Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:22:37.417Z]
+ Mise à jour d'un article par un admin 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam.","user":"662915ad4e05c92efc479945","status":"published","_id":"662915ad4e05c92efc47994a"}
+L'article a été mis à jour !
+[2024-04-24T14:22:37.419Z]
+ Utilisateur connecté: Lindsay, 
+Role: admin
+
+[2024-04-24T14:22:37.424Z]
+ Suppression d'un article par un admin 
+Response: {}
+L'article a bien été mis à supprimé !
+[2024-04-24T14:22:37.425Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:22:37.431Z]
+ Création d'un article par un membre 
+Response:{"title":"Création d'un titre ","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n    ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Amet purus gravida quis blandit\n    turpis cursus. Malesuada bibendum arcu vitae elementum curabitur vitae. Quam nulla porttitor massa\n    id neque aliquam. Pellentesque habitant morbi tristique senectus et. Eleifend donec pretium vulputate sapien \n    nec sagittis aliquam malesuada bibendum. Ut pharetra sit amet aliquam id. Placerat vestibulum lectus mauris \n    ultrices eros in cursus.","user":"662915ad4e05c92efc479946","status":"draft","_id":"662915ad4e05c92efc47994d"}
+L'article a été créé !
+[2024-04-24T14:22:37.432Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:22:37.438Z]
+ Tentative de mise à jour d'un article par un membre
+ Attendu: 401, Unauthorized
+Response:{"status":401,"message":"Unauthorized"}
+[2024-04-24T14:22:37.439Z]
+ Utilisateur connecté: Daisy, 
+Role: member
+
+[2024-04-24T14:22:37.449Z]
+ Tentative de suppression d'un article par un membre
+ Attendu: 401, Unauthorized
+Response: {"status":401,"message":"Unauthorized"}
+[2024-04-24T14:22:37.453Z]
+ Doit retourner les articles de l'utilisateur si des articles existent
+Utilisateur ID:662915ad4e05c92efc479950
+Resultat : [{"title":"Ceci est un premier titre","content":"Ceci est le contenu de l'article 1","user":"662915ad4e05c92efc479950","status":"draft","_id":"662915ad4e05c92efc479950"},{"title":"Ceci est un second titre","content":"Ceci est le contenu de l'article 2","user":"662915ad4e05c92efc479950","status":"draft","_id":"662915ad4e05c92efc479950"}]
+[2024-04-24T14:22:37.455Z]
+ Server closed
